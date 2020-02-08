@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-gameDisplay = pygame.display.set_mode((1920,1080))
+gameDisplay = pygame.display.set_mode((400,300))
 pygame.display.set_caption("Schrodinger's Cat")
 
 
@@ -14,7 +14,7 @@ while not done:
             done = True
     pygame.display.flip()
 
-        
+
 
 clock = pygame.time.Clock()
 
